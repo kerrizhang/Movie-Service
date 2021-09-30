@@ -1,0 +1,945 @@
+[2021/02/28 01:09:33][CONFIG][initService]  Starting service...
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  Scheme: http://
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  Hostname: 127.0.0.1
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  Port: 12347
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  Path: /api/movies
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  Logger output directory: ./logs/
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  Database hostname: matt-smith-v4.ics.uci.edu
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  Database port: 3306
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  Database username: CS122B_012
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  Database password provided? true
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  Database name: CS122B_012
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  Database driver: com.mysql.cj.jdbc.Driver
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  Database connection settings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  IDM Scheme: http://
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  IDM Hostname: 127.0.0.1
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  IDM Port: 12346
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  IDM Path: /api/idm
+[2021/02/28 01:09:33][CONFIG][currentConfigs]  IDM Privilege Path: /privilege
+[2021/02/28 01:09:33][CONFIG][connectToDatabase]  Connecting to database...
+[2021/02/28 01:09:33][CONFIG][connectToDatabase]  Database URL: jdbc:mysql://matt-smith-v4.ics.uci.edu:3306/CS122B_012?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+[2021/02/28 01:09:34][CONFIG][connectToDatabase]  Connected to database: jdbc:mysql://matt-smith-v4.ics.uci.edu:3306/CS122B_012?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+[2021/02/28 01:09:34][CONFIG][initHTTPServer]  Initializing HTTP server...
+[2021/02/28 01:09:34][CONFIG][initHTTPServer]  Building URI from configs...
+[2021/02/28 01:09:34][CONFIG][initHTTPServer]  Final URI: http://127.0.0.1:12347/api/movies
+[2021/02/28 01:09:34][CONFIG][initHTTPServer]  Set Jersey resources.
+[2021/02/28 01:09:34][CONFIG][initHTTPServer]  Set Jackson as serializer.
+[2021/02/28 01:09:34][CONFIG][initHTTPServer]  Starting HTTP server...
+[2021/02/28 01:09:36][CONFIG][initHTTPServer]  HTTP server started.
+[2021/02/28 01:09:36][CONFIG][initService]  Service initialized.
+[2021/02/28 01:09:41][INFO][search]  Received a search request.
+[2021/02/28 01:09:41][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:09:41][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:09:41][INFO][send_idm_request]  /privilege
+[2021/02/28 01:09:42][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:09:42][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:10:32][INFO][search]  Received a search request.
+[2021/02/28 01:10:32][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:10:32][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:10:32][INFO][send_idm_request]  /privilege
+[2021/02/28 01:10:32][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:10:32][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:14:01][INFO][search]  Received a search request.
+[2021/02/28 01:14:01][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:14:01][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:14:01][INFO][send_idm_request]  /privilege
+[2021/02/28 01:14:01][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:14:01][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:21][INFO][search]  Received a search request.
+[2021/02/28 01:16:21][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:21][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:21][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:21][INFO][search]  Received a search request.
+[2021/02/28 01:16:21][INFO][search]  Received a search request.
+[2021/02/28 01:16:21][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:21][INFO][search]  Received a search request.
+[2021/02/28 01:16:21][INFO][search]  Received a search request.
+[2021/02/28 01:16:21][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:21][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:21][INFO][search]  Received a search request.
+[2021/02/28 01:16:21][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:21][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:21][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:21][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:21][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:21][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:21][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:21][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:21][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:21][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:21][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:21][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:21][INFO][search]  Received a search request.
+[2021/02/28 01:16:21][INFO][search]  Received a search request.
+[2021/02/28 01:16:21][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:21][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:21][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:21][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:21][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:21][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:22][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:22][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:22][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:22][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:22][INFO][search]  Received a search request.
+[2021/02/28 01:16:22][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:22][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:22][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:22][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:22][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:22][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:22][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:22][INFO][search]  Received a search request.
+[2021/02/28 01:16:22][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:22][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:22][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:22][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:22][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:23][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:23][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:23][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:23][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:23][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:23][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:23][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:23][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:23][INFO][search]  Received a search request.
+[2021/02/28 01:16:23][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:23][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:23][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:23][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:23][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:23][INFO][search]  Received a search request.
+[2021/02/28 01:16:23][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:23][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:23][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:23][INFO][search]  Received a search request.
+[2021/02/28 01:16:23][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:23][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:23][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:23][INFO][search]  Received a search request.
+[2021/02/28 01:16:23][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:23][INFO][search]  Received a search request.
+[2021/02/28 01:16:23][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:23][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:23][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:23][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:23][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:24][INFO][search]  Received a search request.
+[2021/02/28 01:16:24][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:24][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:24][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:24][INFO][search]  Received a search request.
+[2021/02/28 01:16:24][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:24][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:24][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:24][INFO][search]  Received a search request.
+[2021/02/28 01:16:24][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:24][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:24][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:25][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:25][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:25][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:25][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:25][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:25][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:25][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:25][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:25][INFO][search]  Received a search request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:25][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:25][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:25][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:25][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:25][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:25][INFO][search]  Received a search request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:25][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:25][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:25][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:25][INFO][search]  Received a search request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:25][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:25][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:25][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:25][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:25][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:25][INFO][search]  Received a search request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:25][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:25][INFO][search]  Received a search request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:25][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:25][INFO][search]  Received a search request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:25][INFO][search]  Received a search request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:25][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:25][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:25][INFO][search]  Received a search request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:25][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:25][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:26][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:26][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:26][INFO][search]  Received a search request.
+[2021/02/28 01:16:26][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:26][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:26][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:26][INFO][search]  Received a search request.
+[2021/02/28 01:16:26][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:26][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:26][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:26][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:26][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:27][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:27][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:27][INFO][search]  Received a search request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:27][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:27][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:27][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:27][INFO][search]  Received a search request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:27][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:27][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:27][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:27][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:27][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:27][INFO][search]  Received a search request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:27][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:27][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:27][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:27][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:27][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:27][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:27][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:27][INFO][search]  Received a search request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:27][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:27][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:27][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:27][INFO][search]  Received a search request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:27][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:27][INFO][search]  Received a search request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:27][INFO][search]  Received a search request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:27][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:27][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:27][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:27][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:27][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:27][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:27][INFO][search]  Received a search request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:27][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:27][INFO][search]  Received a search request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:27][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:27][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:28][INFO][search]  Received a search request.
+[2021/02/28 01:16:28][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:28][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:28][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:28][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:28][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:28][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:28][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:28][INFO][search]  Received a search request.
+[2021/02/28 01:16:28][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:28][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:28][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:28][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:28][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:28][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:28][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:28][INFO][search]  Received a search request.
+[2021/02/28 01:16:28][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:28][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:28][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:28][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:28][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:28][INFO][search]  Received a search request.
+[2021/02/28 01:16:28][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:28][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:28][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:28][INFO][search]  Received a search request.
+[2021/02/28 01:16:28][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:28][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:28][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:29][INFO][search]  Received a search request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:29][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:29][INFO][search]  Received a search request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:29][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:29][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:29][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:29][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:29][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:29][INFO][search]  Received a search request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:29][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:29][INFO][search]  Received a search request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:29][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:29][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:29][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:29][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:29][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:29][INFO][search]  Received a search request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:29][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:29][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:29][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:29][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:29][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:29][INFO][search]  Received a search request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:29][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:29][INFO][search]  Received a search request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:29][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:29][INFO][search]  Received a search request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:29][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:29][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:30][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:30][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:30][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:30][INFO][search]  Received a search request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:30][INFO][search]  Received a search request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:30][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:30][INFO][search]  Received a search request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:30][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:30][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:30][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:30][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:30][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:30][INFO][search]  Received a search request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:30][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:30][INFO][search]  Received a search request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:30][INFO][search]  Received a search request.
+[2021/02/28 01:16:30][INFO][search]  Received a search request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:30][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:30][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:30][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:30][INFO][search]  Received a search request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:30][INFO][search]  Received a search request.
+[2021/02/28 01:16:30][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:30][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:30][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:30][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:31][INFO][search]  Received a search request.
+[2021/02/28 01:16:31][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:31][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:31][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:31][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:31][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:31][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:31][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:31][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:31][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:31][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:31][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:31][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:31][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:31][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:31][INFO][search]  Received a search request.
+[2021/02/28 01:16:31][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:31][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:31][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:31][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:31][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:31][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:31][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:31][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:31][INFO][search]  Received a search request.
+[2021/02/28 01:16:31][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:31][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:31][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:31][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:31][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:31][INFO][search]  Received a search request.
+[2021/02/28 01:16:31][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:31][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:31][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:31][INFO][search]  Received a search request.
+[2021/02/28 01:16:31][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:31][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:31][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:31][INFO][search]  Received a search request.
+[2021/02/28 01:16:31][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:31][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:31][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:31][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:31][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:31][INFO][search]  Received a search request.
+[2021/02/28 01:16:31][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:31][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:31][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:32][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:32][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:32][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:32][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:32][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:32][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:32][INFO][search]  Received a search request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:32][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:32][INFO][search]  Received a search request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:32][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:32][INFO][search]  Received a search request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:32][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:32][INFO][search]  Received a search request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:32][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:32][INFO][search]  Received a search request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:32][INFO][search]  Received a search request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:32][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:32][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:32][INFO][search]  Received a search request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:32][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:32][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:32][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:32][INFO][search]  Received a search request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:32][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:32][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:32][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:32][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:32][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:32][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:32][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:32][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:32][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:32][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:32][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:32][INFO][search]  Received a search request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:32][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:32][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:33][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:33][INFO][search]  Received a search request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:33][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:33][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:33][INFO][search]  Received a search request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:33][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:33][INFO][search]  Received a search request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:33][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:33][INFO][search]  Received a search request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:33][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:33][INFO][search]  Received a search request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:33][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:33][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:33][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:33][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:33][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:33][INFO][search]  Received a search request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:33][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:33][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:33][INFO][search]  Received a search request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:33][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:33][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:33][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:33][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:33][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:33][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:33][INFO][search]  Received a search request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:33][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:33][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:34][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:34][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:34][INFO][search]  Received a search request.
+[2021/02/28 01:16:34][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:34][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:34][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:34][INFO][search]  Received a search request.
+[2021/02/28 01:16:34][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:34][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:34][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:34][INFO][search]  Received a search request.
+[2021/02/28 01:16:34][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:34][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:34][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:34][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:34][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:34][INFO][search]  Received a search request.
+[2021/02/28 01:16:34][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:34][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:34][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:34][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:34][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:34][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:34][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:34][INFO][search]  Received a search request.
+[2021/02/28 01:16:34][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:34][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:34][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:34][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:34][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:34][INFO][search]  Received a search request.
+[2021/02/28 01:16:34][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:34][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:34][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:34][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:34][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:34][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:34][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:34][INFO][search]  Received a search request.
+[2021/02/28 01:16:34][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:34][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:34][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:35][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:35][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:35][INFO][search]  Received a search request.
+[2021/02/28 01:16:35][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:35][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:35][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:35][INFO][search]  Received a search request.
+[2021/02/28 01:16:35][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:35][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:35][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:35][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:35][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:35][INFO][search]  Received a search request.
+[2021/02/28 01:16:35][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:35][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:35][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:35][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:35][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:35][INFO][search]  Received a search request.
+[2021/02/28 01:16:35][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:35][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:35][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:35][INFO][search]  Received a search request.
+[2021/02/28 01:16:35][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:35][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:35][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:36][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:36][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:36][INFO][search]  Received a search request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:36][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:36][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:36][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:36][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:36][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:36][INFO][search]  Received a search request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:36][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:36][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:36][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:36][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:36][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:36][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:36][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:36][INFO][search]  Received a search request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:36][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:36][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:36][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:36][INFO][search]  Received a search request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:36][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:36][INFO][search]  Received a search request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:36][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:36][INFO][search]  Received a search request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:36][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:36][INFO][search]  Received a search request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:36][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:36][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:36][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:36][INFO][search]  Received a search request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:36][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:36][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:37][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:37][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:37][INFO][search]  Received a search request.
+[2021/02/28 01:16:37][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:37][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:37][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:37][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:37][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:37][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:37][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:37][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:37][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:37][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:37][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:37][INFO][search]  Received a search request.
+[2021/02/28 01:16:37][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:37][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:37][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:37][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:37][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:37][INFO][search]  Received a search request.
+[2021/02/28 01:16:37][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:37][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:37][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:37][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:37][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:37][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:37][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:37][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:37][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:37][INFO][search]  Received a search request.
+[2021/02/28 01:16:37][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:37][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:37][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:37][INFO][search]  Received a search request.
+[2021/02/28 01:16:37][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:37][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:37][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:37][INFO][search]  Received a search request.
+[2021/02/28 01:16:37][INFO][search]  Received a search request.
+[2021/02/28 01:16:37][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:37][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:37][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:37][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:37][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:37][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:37][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:37][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:37][INFO][search]  Received a search request.
+[2021/02/28 01:16:37][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:37][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:37][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:38][INFO][search]  Received a search request.
+[2021/02/28 01:16:38][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:38][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:38][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:38][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:38][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:38][INFO][search]  Received a search request.
+[2021/02/28 01:16:38][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:38][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:38][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:38][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:38][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:38][INFO][search]  Received a search request.
+[2021/02/28 01:16:38][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:38][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:38][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:38][INFO][search]  Received a search request.
+[2021/02/28 01:16:38][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:38][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:38][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:38][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:38][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:38][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:38][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:38][INFO][search]  Received a search request.
+[2021/02/28 01:16:38][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:38][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:38][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:38][INFO][search]  Received a search request.
+[2021/02/28 01:16:38][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:38][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:38][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:38][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:38][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:38][INFO][search]  Received a search request.
+[2021/02/28 01:16:38][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:38][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:38][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:38][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:38][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:39][INFO][search]  Received a search request.
+[2021/02/28 01:16:39][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:39][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:39][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:39][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:39][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:39][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:39][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:39][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:39][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:39][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:39][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:39][INFO][search]  Received a search request.
+[2021/02/28 01:16:39][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:39][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:39][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:39][INFO][search]  Received a search request.
+[2021/02/28 01:16:39][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:39][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:39][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:39][INFO][search]  Received a search request.
+[2021/02/28 01:16:39][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:39][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:39][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:39][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:39][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:39][INFO][search]  Received a search request.
+[2021/02/28 01:16:39][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:39][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:39][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:40][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:40][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:40][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:40][INFO][search]  Received a search request.
+[2021/02/28 01:16:40][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:40][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:40][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:40][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:40][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:40][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:40][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:40][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:40][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:40][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:40][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:40][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:40][INFO][search]  Received a search request.
+[2021/02/28 01:16:40][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:40][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:40][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:40][INFO][search]  Received a search request.
+[2021/02/28 01:16:40][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:40][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:40][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:40][INFO][search]  Received a search request.
+[2021/02/28 01:16:40][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:40][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:40][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:40][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:40][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:40][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:40][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:40][INFO][search]  Received a search request.
+[2021/02/28 01:16:40][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:40][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:40][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:40][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:40][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:40][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:40][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:40][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:40][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:41][INFO][search]  Received a search request.
+[2021/02/28 01:16:41][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:41][INFO][search]  Received a search request.
+[2021/02/28 01:16:41][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:41][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:41][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:41][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:41][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:41][INFO][search]  Received a search request.
+[2021/02/28 01:16:41][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:41][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:41][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:41][INFO][search]  Received a search request.
+[2021/02/28 01:16:41][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:41][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:41][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:41][INFO][search]  Received a search request.
+[2021/02/28 01:16:41][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:41][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:41][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:42][INFO][search]  Received a search request.
+[2021/02/28 01:16:42][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:42][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:42][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:42][INFO][search]  Received a search request.
+[2021/02/28 01:16:42][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:42][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:42][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:42][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:42][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:42][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:42][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:42][INFO][search]  Received a search request.
+[2021/02/28 01:16:42][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:42][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:42][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:43][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:43][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:43][INFO][search]  Received a search request.
+[2021/02/28 01:16:43][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:43][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:43][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:43][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:43][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:43][INFO][search]  Received a search request.
+[2021/02/28 01:16:43][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:43][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:43][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:44][INFO][search]  Received a search request.
+[2021/02/28 01:16:44][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:44][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:44][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:45][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:45][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:45][INFO][search]  Received a search request.
+[2021/02/28 01:16:45][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:45][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:45][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:45][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:45][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:45][INFO][search]  Received a search request.
+[2021/02/28 01:16:45][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:45][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:45][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:45][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:45][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:46][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:46][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:46][INFO][search]  Received a search request.
+[2021/02/28 01:16:46][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:46][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:46][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:46][INFO][search]  Received a search request.
+[2021/02/28 01:16:46][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:46][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:46][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:46][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:46][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:46][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:46][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:46][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:46][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:46][INFO][search]  Received a search request.
+[2021/02/28 01:16:46][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:16:46][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:16:46][INFO][send_idm_request]  /privilege
+[2021/02/28 01:16:47][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:47][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:47][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:47][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:47][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:47][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:48][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:48][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:48][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:48][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:16:48][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:16:48][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:26:57][INFO][search]  Received a search request.
+[2021/02/28 01:26:57][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:26:57][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:26:57][INFO][send_idm_request]  /privilege
+[2021/02/28 01:26:57][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:26:57][INFO][search]  Remote replied with code 141.
+[2021/02/28 01:45:26][INFO][get_movie]  apiGatewayTest@uci.edu
+[2021/02/28 01:45:26][INFO][get_movie]  fsdf
+[2021/02/28 01:45:26][INFO][get_movie]  fdsafsafsa
+[2021/02/28 01:45:26][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:45:26][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:45:26][INFO][send_idm_request]  /privilege
+[2021/02/28 01:45:26][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:45:26][INFO][get_movie]  Remote replied with code 14.
+[2021/02/28 01:45:26][WARNING][get_movie]  Result code other than 140 or 141
+[2021/02/28 01:45:27][INFO][get_movie]  apiGatewayTest@uci.edu
+[2021/02/28 01:45:27][INFO][get_movie]  fsdf
+[2021/02/28 01:45:27][INFO][get_movie]  fdsafsafsa
+[2021/02/28 01:45:27][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:45:27][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:45:27][INFO][send_idm_request]  /privilege
+[2021/02/28 01:45:27][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:45:27][INFO][get_movie]  Remote replied with code 14.
+[2021/02/28 01:45:27][WARNING][get_movie]  Result code other than 140 or 141
+[2021/02/28 01:45:36][INFO][get_movie]  test1@uci.edu
+[2021/02/28 01:45:36][INFO][get_movie]  fsdf
+[2021/02/28 01:45:36][INFO][get_movie]  fdsafsafsa
+[2021/02/28 01:45:36][INFO][send_idm_request]  Preparing remove request to do IDM endpoint /privilege
+[2021/02/28 01:45:36][INFO][send_idm_request]  Sending remote request.
+[2021/02/28 01:45:36][INFO][send_idm_request]  /privilege
+[2021/02/28 01:45:36][INFO][send_idm_request]  IDM Request status: 200
+[2021/02/28 01:45:36][INFO][get_movie]  Remote replied with code 141.
+[2021/02/28 01:45:36][INFO][get_movie]  SELECT DISTINCT movie.*, genre.genre_id, genre.name, person.person_id, person.name FROM movie JOIN keyword_in_movie ON movie.movie_id = keyword_in_movie.movie_id JOIN keyword ON keyword.keyword_id = keyword_in_movie.keyword_id JOIN person ON person.person_id = movie.director_id JOIN genre_in_movie ON movie.movie_id = genre_in_movie.movie_id JOIN genre ON genre.genre_id = genre_in_movie.genre_id WHERE movie.movie_id = 'tt4154796'
+[2021/02/28 01:45:36][INFO][get_movie]  SELECT * FROM person JOIN person_in_movie on person.person_id = person_in_movie.person_id JOIN movie ON movie.movie_id = person_in_movie.movie_id WHERE movie.movie_id = 'tt4154796'

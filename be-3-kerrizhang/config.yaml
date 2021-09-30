@@ -1,0 +1,27 @@
+serviceConfig:
+  scheme: http://
+  hostName: 127.0.0.1
+  port: 12347
+  path: /api/movies
+
+loggerConfig:
+  outputDir: ./logs/
+  outputFile: test.log
+
+databaseConfig:
+  dbUsername: CS122B_012
+  dbPassword: UzXfnFAY0Ks1~
+  dbHostname: matt-smith-v4.ics.uci.edu
+  dbPort: 3306
+  dbDriver: com.mysql.cj.jdbc.Driver
+  dbName: CS122B_012
+  dbSettings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+
+idmConfig:
+  scheme: http://
+  hostName: 127.0.0.1
+  port: 12346
+  path: /api/idm
+
+idmEndpoints:
+  privilege: /privilege
