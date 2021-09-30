@@ -1,0 +1,45 @@
+#serviceConfig:
+#  scheme: http://
+#  hostName: 127.0.0.1
+#  port: 12345
+#  path: /api/idm
+#
+#loggerConfig:
+#  outputDir: ./logs/
+#  outputFile: test.log
+#
+#databaseConfig:
+#  dbUsername: root
+#  dbPassword:
+#  dbHostname: localhost
+#  dbPort: 3307
+#  dbDriver: com.mysql.cj.jdbc.Driver
+#  dbName: CS_122B
+#  dbSettings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+#
+#sessionConfig:
+#  timeout: 600000
+#  expiration: 1800000
+
+serviceConfig:
+  scheme: http://
+  hostName: 127.0.0.1
+  port: 12345
+  path: /api/idm
+
+loggerConfig:
+  outputDir: ./logs/
+  outputFile: test.log
+
+databaseConfig:
+  dbUsername: CS122B_012
+  dbPassword: UzXfnFAY0Ks1~
+  dbHostname: matt-smith-v4.ics.uci.edu
+  dbPort: 3306
+  dbDriver: com.mysql.cj.jdbc.Driver
+  dbName: CS122B_012
+  dbSettings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+
+sessionConfig:
+  timeout: 600000
+  expiration: 1800000
