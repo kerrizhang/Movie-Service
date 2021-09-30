@@ -1,0 +1,69 @@
+serviceConfig:
+  scheme: http://
+  hostName: 127.0.0.1
+  port: 12345
+  path: /api/g
+
+loggerConfig:
+  outputDir: ./logs/
+  outputFile: gateway.log
+
+databaseConfig:
+  dbUsername: CS122B_012
+  dbPassword: UzXfnFAY0Ks1~
+  dbHostname: matt-smith-v4.ics.uci.edu
+  dbPort: 3306
+  dbDriver: com.mysql.cj.jdbc.Driver
+  dbName: CS122B_012
+  dbSettings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+
+threadConfig:
+  numThreads: 10
+  requestDelay: 5
+
+idmConfig:
+  scheme: http://
+  hostName: 127.0.0.1
+  port: 12346
+  path: /api/idm
+
+idmEndpoints:
+  register: /register
+  login: /login
+  session: /session
+  privilege: /privilege
+
+moviesConfig:
+  scheme: http://
+  hostName: 127.0.0.1
+  port: 12347
+  path: /api/movies
+
+moviesEndpoints:
+  search: /search
+  browse: /browse/
+  get: /get/
+  thumbnail: /thumbnail
+  people: /people
+  peopleSearch: /people/search
+  peopleGet: /people/get/
+  
+billingConfig:
+  scheme: http://
+  hostName: 127.0.0.1
+  port: 12348
+  path: /api/billing
+  
+billingEndpoints:
+  cartInsert: /cart/insert
+  cartUpdate: /cart/update
+  cartDelete: /cart/delete
+  cartRetrieve: /cart/retrieve
+  cartClear: /cart/clear
+  orderPlace: /order/place
+  orderRetrieve: /order/retrieve
+  orderComplete: /order/complete
+  
+
+
+
